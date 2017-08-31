@@ -15,7 +15,7 @@ class Handle(object):
             nonce = data.nonce
             echostr = data.echostr
             token = "zhyjor2017" #请按照公众平台官网\基本配置中信息填写
-			print "zhyjor2017", nonce, echostr
+
             list = [token, timestamp, nonce]
             list.sort()
             sha1 = hashlib.sha1()
